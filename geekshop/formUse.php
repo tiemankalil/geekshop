@@ -43,7 +43,13 @@
                     <input type="password"
                       class="form-control" name="conf_passe" id="passe" aria-describedby="helpId" placeholder="confirmer mot de passe">
                    </div>
+
+                   <div class="bouton d-flex justify-content-between">
                    <input name="valider" id="" class="btn btn-primary" type="submit" value="valider">
+                      <button class="btn btn-light my-2 my-sm-0 d-block" type="button"><a href="index.php" >Annule</a></button>
+
+                   </div>
+
             </form>
            
         </div>
